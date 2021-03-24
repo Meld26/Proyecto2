@@ -251,10 +251,10 @@ footer {
 .tituloNosotros{
     color: #9325a8;
 }
-.image {
+.imagen {
     background: url("nosotrosfoto.jpg") center/cover no-repeat;
 }
-.content {
+.contenidoNosotros {
     padding-top: 40px;
     background: #fff;
     display: flex;
@@ -262,20 +262,20 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-.content h2 {
+.contenidoNosotros h2 {
     padding-top: 30px;
     text-transform: uppercase;
     font-size: 36px;
     letter-spacing: 6px;
     opacity: 0.9;
 }
-.content span {
+.contenidoNosotros span {
     height: 0.5px;
     width: 80px;
     background: #777;
     margin: 30px 0;
 }
-.content p {
+.contenidoNosotros p {
     padding-bottom: 15px;
     font-weight: 300;
     opacity: 0.7;
@@ -306,26 +306,26 @@ footer {
 .links li:hover a {
     color :#9325a8;
 }
-.vertical-line {
+.linea-vertical {
     height: 30px;
     width: 0.5px;
     background: #777;
     margin: 0 auto;
 }
-.icons {
+.iconos {
     display: flex;
     padding: 15px 0;
 }
-.icons li {
+.iconos li {
     display: block;
     padding: 5px;
     margin: 5px;
 }
-.icons li i {
+.iconos li i {
     font-size: 26px;
     opacity: 0.8;
 }
-.icons li i:hover{
+.iconos li i:hover{
     color: #9325a8;
 }
 
@@ -336,20 +336,20 @@ footer {
         grid-template-columns: 1fr;
         width: 100%;
     }
-    .image{
+    .imagen{
         height: 100vh;
     }
-    .content{
+    .contenidoNosotros{
         height: 100vh;
     }
-    .content h2{
+    .contenidoNosotros h2{
         font-size: 20px;
         margin-top: 50px;
     }
-    .content span{
+    .contenidoNosotros span{
         margin: 20px 0;
     }
-    .content p{
+    .contenidoNosotros p{
         font-size: 14px;
     }
     .links li a{
@@ -444,7 +444,7 @@ footer {
     background: #f4f4f4;
 }
 
-.testimonials {
+.testimoniales {
     font-family: 'Roboto';
     padding: 40px 0;
     background: #f4f4f4;
@@ -498,13 +498,13 @@ footer {
     border-radius: 50%;
 }
 
-.name {
+.nombre {
     font-size: 20px;
     text-transform: uppercase;
     margin: 20px 0;
 }
 
-.stars {
+.estrellas {
     color: #9325a8;
     margin-bottom: 20px;
 }
@@ -537,7 +537,7 @@ footer {
     padding: 30px;
     background: white;
 }
-.get_in_touch .title {
+.get_in_touch .titulo {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
@@ -599,4 +599,6 @@ footer {
 .submit-btn:hover {
     color: black;
 }
+
+
 /*FIN CONTACTO*/
