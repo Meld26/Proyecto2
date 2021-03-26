@@ -50,7 +50,7 @@ body{
 .slider-btn .btn {
     background-color: #79198c;
     color: white;
-    border-radius: 2;
+    border-radius: 5px;
     padding: 1.2rem 1.5rem;
     font-size: 1rem;
     margin-right: 20px;
@@ -594,6 +594,7 @@ footer {
     border: none;
     width: 200px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .submit-btn:hover {
