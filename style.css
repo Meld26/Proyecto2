@@ -601,5 +601,10 @@ footer {
     color: black;
 }
 
+@media screen and (max-width: 576px){
+    .get_in_touch .titulo{
+        font-size: 2em;
+    }
+}
 
 /*FIN CONTACTO*/
