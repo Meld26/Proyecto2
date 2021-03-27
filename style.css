@@ -244,7 +244,7 @@ footer {
     padding-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 90vh;
+    min-height: 100vh;
     width: 85vw;
     margin: 0 auto;
 }
@@ -312,22 +312,7 @@ footer {
     background: #777;
     margin: 0 auto;
 }
-.iconos {
-    display: flex;
-    padding: 15px 0;
-}
-.iconos li {
-    display: block;
-    padding: 5px;
-    margin: 5px;
-}
-.iconos li i {
-    font-size: 26px;
-    opacity: 0.8;
-}
-.iconos li i:hover{
-    color: #9325a8;
-}
+
 
 /*****************/
 
@@ -361,10 +346,9 @@ footer {
     .links li{
         padding: 6px 10px;
     }
-    .icons li i{
-        font-size: 15px;
-    }
 }
+
+
 /*FIN NOSOTROS*/
 
 /*INICIO SERVICIOS*/
@@ -432,6 +416,14 @@ footer {
     font-size: 15px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 576px){
+    .servicios h1 {
+        font-size: 1.5em;
+        letter-spacing: 3px;
+    }
+}
+
 @media screen and (max-width: 500px){
     .servicioMini{
         width: 100%;
@@ -520,6 +512,10 @@ footer {
     .col{
         flex: 100%;
         max-width: 100%;
+    }
+
+    .h1Experiencias {
+        font-size: 2em;
     }
 }
 
