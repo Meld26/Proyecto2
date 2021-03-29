@@ -12,57 +12,144 @@ body{
 
 
 /*INICIO INDEX*/
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat scroll center scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
+.bodyIndex {
+    background-color: #f4f4f4;
 }
-.carousel-item::before {
-    content: "";
-    display: block;
+
+.aIndex {
+	text-decoration: none;
+}
+
+.h1Index {
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+    font-weight: bolder;
+    color: #79198c;
+}
+
+.showcaseIndex {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	padding: 0 20px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.603);
-    opacity: 0.2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
 }
-.carousel-caption {
-    bottom: 180px;
-    padding-left: 100px;
-    padding-right: 100px;
+
+.video-container:after {
+	content: '';
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.158);
+	position: absolute;
 }
-.carousel-caption h5 {
-    font-size: 80px;
-    font-weight: 700;
+
+.contentIndex {
+	z-index: 2;
 }
-.carousel-caption p {
+
+.btnIndex {
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	border-radius: 5px;
+	border: solid #79198c 2px;
+	margin-top: 25px;
+	opacity: 0.7;
+    font-weight: bolder;
     font-size: 20px;
-    top: 3rem;
+}
+
+.btnIndex:hover {
+    color: #79198c;
+    transition: .3s linear;
+}
+
+#about {
+	padding: 60px;
+	text-align: center;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+}
+
+#about p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
+}
+
+#about h3 {
+	margin: 30px 0;
+    font-size: 20px;
     font-weight: bold;
 }
-.slider-btn {
-    margin-top: 30px;
+
+.socialIndex a {
+	margin: 0 5px;
+    font-size: 15px;
+    color: #812d92;
 }
-.slider-btn .btn {
-    background-color: #79198c;
-    color: white;
-    border-radius: 5px;
-    padding: 1.2rem 1.5rem;
-    font-size: 1rem;
-    margin-right: 20px;
+
+.socialIndex a:hover {
+    color: #5f186d;
+    transition: .3s linear;
 }
-.aBoton {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    font-weight: 600;
-}
-.aBoton:hover {
-    color: white;
+
+@media screen and (max-width: 576px) {
+    .h1Index {
+        font-size: 40px;
+    }
+
+    .h3Index {
+        font-size: 20px;
+    }
+
+    .btnIndex {
+        font-size: 15px;
+    }
+
+    .subtitulo {
+        font-size: 25px;
+    }
+
+    #about p {
+        font-size: 15px;
+    }
+
+    #about h3 {
+        font-size: 15px;
+    }
+
+    .socialIndex a {
+        font-size: 10px;
+    }
+
 }
 /*FIN INDEX*/
 
