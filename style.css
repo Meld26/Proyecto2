@@ -187,7 +187,6 @@ body{
 
 /*INICIO FOOTER*/
 footer {
-    font-family: 'Roboto';
     background: #252529;
     padding: 90px 0;
 }
@@ -213,7 +212,6 @@ footer {
     color: #9325a8;
     transition: .2s;
 }
-
 
 .social-media {
     margin: 20px 0;
@@ -320,7 +318,6 @@ footer {
 
 /*INICIO NOSOTROS*/
 .bodyNosotros {
-    font-family: 'Roboto';
     display: grid;
     background-color: #f4f4f4;
     align-content: center;
@@ -459,7 +456,6 @@ footer {
 .mainServicios{
     padding-top: 60px;
     padding-bottom: 60px;
-    font-family: 'Roboto';
     background: #f4f4f4;
 }
 
@@ -555,7 +551,6 @@ footer {
 }
 
 .testimoniales {
-    font-family: 'Roboto';
     padding: 40px 0;
     background: #f4f4f4;
     color: #777;
