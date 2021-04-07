@@ -10,7 +10,6 @@ body{
     font-family: 'Roboto';
 }
 
-
 /*INICIO INDEX*/
 .bodyIndex {
     background-color: #f4f4f4;
@@ -185,6 +184,7 @@ body{
 .pageContent {
     min-height: 100vh;
 }
+
 /*INICIO FOOTER*/
 footer {
     font-family: 'Roboto';
@@ -231,7 +231,7 @@ footer {
     color: #6c237a;
 }
 
-.rights-text {
+.derechos {
     color: white;
     font-weight: bold;
 }
@@ -326,6 +326,7 @@ footer {
     align-content: center;
     min-height: 100vh;
 }
+
 .sectionNosotros {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -335,12 +336,15 @@ footer {
     width: 85vw;
     margin: 0 auto;
 }
+
 .tituloNosotros{
     color: #9325a8;
 }
+
 .imagen {
     background: url("nosotrosfotoOPTIMIZADA.jpg") center/cover no-repeat;
 }
+
 .contenidoNosotros {
     padding-top: 40px;
     background: #fff;
@@ -349,6 +353,7 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
 .contenidoNosotros h2 {
     padding-top: 30px;
     text-transform: uppercase;
@@ -356,12 +361,14 @@ footer {
     letter-spacing: 6px;
     opacity: 0.9;
 }
+
 .contenidoNosotros span {
     height: 0.5px;
     width: 80px;
     background: #777;
     margin: 30px 0;
 }
+
 .contenidoNosotros p {
     padding-bottom: 15px;
     font-weight: 300;
@@ -371,9 +378,11 @@ footer {
     margin: 0 auto;
     line-height: 1.7;
 }
+
 .links {
     margin: 15px 0;
 }
+
 .links li{
     border: 0.5px solid #777;
     list-style: none;
@@ -382,17 +391,21 @@ footer {
     width: 160px;
     text-align: center;
 }
+
 .links li a {
     text-transform: uppercase;
     color: #777;
     text-decoration: none;
 }
+
 .links li:hover {
     border-color: #9325a8;
 }
+
 .links li:hover a {
     color :#9325a8;
 }
+
 .linea-vertical {
     height: 30px;
     width: 0.5px;
@@ -400,41 +413,45 @@ footer {
     margin: 0 auto;
 }
 
-
-/*****************/
-
 @media(max-width: 992px) {
     .sectionNosotros{
         grid-template-columns: 1fr;
         width: 100%;
     }
+
     .imagen{
         height: 100vh;
     }
+
     .contenidoNosotros{
         height: 100vh;
     }
+
     .contenidoNosotros h2{
         font-size: 20px;
         margin-top: 50px;
     }
+
     .contenidoNosotros span{
         margin: 20px 0;
     }
+
     .contenidoNosotros p{
         font-size: 14px;
     }
+
     .links li a{
         font-size: 14px;
     }
+
     .links{
         margin: 5px 0;
     }
+
     .links li{
         padding: 6px 10px;
     }
 }
-
 
 /*FIN NOSOTROS*/
 
@@ -445,12 +462,14 @@ footer {
     font-family: 'Roboto';
     background: #f4f4f4;
 }
+
 .servicios{
     background: white;
     text-align: center;
     margin-left: 60px;
     margin-right: 60px;
 }
+
 .servicios h1{
     color: #9325a8;
     display: inline-block;
@@ -475,6 +494,7 @@ footer {
     overflow: hidden;
     padding: 20px;
 }
+
 .servicioMini{
     display: inline-block;
     width: calc(100% / 3);
@@ -484,20 +504,24 @@ footer {
     cursor: pointer;
     transition: 0.4s;
 }
+
 .servicioMini:hover{
     background: #ad42c2;
 }
+
 .servicioMini i{
     color: #9325a8;
     font-size: 34px;
     margin-bottom: 30px;
 }
+
 .servicioMini h2{
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 15px;
 }
+
 .servicioMini p{
     color: #000;
     font-size: 15px;
@@ -612,7 +636,8 @@ footer {
 .bodyContacto{
     background: #f4f4f4;
 }
-.get_in_touch {
+
+.contactanosBox {
     max-width: 800px;
     margin: 50px auto;
     position: relative;
@@ -620,7 +645,8 @@ footer {
     padding: 30px;
     background: white;
 }
-.get_in_touch .titulo {
+
+.contactanosBox .titulo {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
@@ -633,10 +659,12 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .contact-form .form-field {
     position: relative;
     margin: 32px 0;
 }
+
 .contact-form .input-text {
     display: block;
     width: 100%;
@@ -647,13 +675,16 @@ footer {
     line-height: 26px;
     font-weight: 400;
 }
+
 .contact-form .input-text:focus + .label,
 .contact-form .input-text.not-empty + .label {
     transform: translateY(-24px);
 }
+
 .contact-form .input-text:focus {
     outline: none;
 }
+
 .contact-form .label {
     position: absolute;
     left: 20px;
@@ -666,6 +697,7 @@ footer {
     text-transform: capitalize;
     transition: transform 0.2s ease-in-out;
 }
+
 .contact-form .submit-btn {
     display: inline-block;
     background: #9325a8;
@@ -685,7 +717,7 @@ footer {
 }
 
 @media screen and (max-width: 576px){
-    .get_in_touch .titulo{
+    .contactanosBox .titulo{
         font-size: 2em;
     }
 }
